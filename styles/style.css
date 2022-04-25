@@ -1,0 +1,1238 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    background-color: white;
+}
+.burger {
+    display: none;
+    margin: 30px 10px 20px 360px;
+    position: relative;
+    font-size: 25px;
+}
+  
+.burger-content {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 200px;
+    height: 100px;
+    bottom: 10px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 15px;
+    color: white;
+    padding-bottom: 50px;
+}
+  
+.burger:hover .burger-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mlink {
+    padding: 12px 24px;
+    text-decoration: none;
+    color: white;
+}
+.icon{
+    color: white;
+}
+  
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    margin-top: 0px;
+    top: 0px;
+    background-color: black;
+    position: fixed;
+    z-index:1;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 24px 0px 0px 10px;
+}
+.logo img{
+    width: 45px;
+    height: 40px;
+    margin: 15px 0px 0px 40px;
+}
+
+.drop_down_menu{
+    display: flex;
+    display: inline-block;
+}
+
+.btn_1{
+    background-color: black;
+    color: white;
+    padding: 14px;
+    font-size: 20px;
+    border: none;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.drop_down_1{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    height: 70vh;
+    background-color: black;
+}
+
+.drop_down_1{
+    display: none;
+}
+
+.drop_down_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.drop_down_menu:hover .drop_down_1{
+    display: flex;
+}
+
+.drop_down_content a{
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    justify-content: flex-start;
+    display: flex;
+    margin-left: -14px;
+    font-size: 25px;
+}
+.drop_down_content a:hover{
+    background-color: #b70826;
+    color: white;
+    font-size: 27px;
+    transition: all 1s;
+    transition-delay: 0.2s;
+}
+.ctext:hover{
+    background-color: #b70826;
+    color: white;
+    font-size: 22px;
+    transition: all 1s;
+    transition-delay: 0.2s;
+}
+.nav_link1{
+    font-size: 15px;
+    color: grey;
+}
+
+.nav_link2{
+    font-size: 15px;
+    color: grey;
+}
+
+.nav_link3{
+    font-size: 15px;
+    color: grey;
+}
+
+.nav_link4{
+    font-size: 15px;
+    color: grey;
+}
+.drop-down_2{
+    display: flex;
+    display: inline-block;
+}
+.btn_2{
+    background-color: black;
+    color: white;
+    padding: 14px;
+    font-size: 20px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.btn_2 a{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 14px;
+    text-decoration: none;
+
+}
+
+.drop_down_menu2{
+    display: flex;
+    display: inline-block;
+}
+
+.btn_3{
+    background-color: black;
+    color: white;
+    padding: 14px;
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.drop_down_2{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    height: 70vh;
+    background-color: black;
+}
+
+.drop_down_2{
+
+    display: none;
+}
+
+.drop_down_content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.drop_down_menu2:hover .drop_down_2{
+    display: flex;
+}
+
+.drop_down_content a{
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.drop_down_content_2 a{
+    color: #fff;
+    padding: 12px 16px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    text-decoration: none;
+    margin: 20px 0px 0px -100px;
+}
+
+.drop_down_content_2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
+
+.drop_down_content_2 div img{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+}
+
+.img-two, .img-three, .img-four, .img-five, .img-six{
+    display: none;
+}
+
+
+.first:hover .img-one{
+    display: block;
+}
+
+.second:hover .img-two{
+    display: block;
+}
+
+.third:hover .img-three{
+    display: block;
+}
+.fourth:hover .img-four{
+    display: block;
+}
+.fives:hover .img-five{
+    display: block;
+}
+.sixes:hover .img-six{
+    display: block;
+}
+
+.videoblock{
+    display: flex;
+    width: 100%;
+    padding-top: 115px ;
+    padding-bottom: 102px;
+    height: auto;
+    background-size: contain;
+    object-fit: cover;
+    background-color: black;
+    z-index: -1;
+}
+
+
+.block1{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.block1_text{
+    width: 50%;
+    height: 99%;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-self: flex-start;
+    margin: 100px;
+}
+.block1_text1{
+    width: 50%;
+    height: 5%;
+}
+.block1_text2{
+    width: 90%;
+    height: 20%;
+    font-size: 40px;
+}
+.block1_text3{
+    width: 80%;
+    height: 30%;
+}
+.button{
+    display: flex;
+    width: 50%;
+    height: 10%;
+    justify-content: center;
+}
+.button{
+    padding: 20px 20px;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+    cursor: grab;
+    transition: 1s;
+}
+.button a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.button a:hover{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.block1_frame{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin: 50px;
+    margin-top: -100px;
+    margin-right: 100px;
+}
+.insideframe{
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+.insideframe img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    transition: all 2s;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes scroll {
+        0%{transform: translateY(100%);}
+        10%{transform: translateY(50%);}
+        20%{transform: translateY(0%);}
+        30%{transform: translateY(-50%);}
+        40%{transform: translateY(-100%);}
+        50%{transform: translateY(-150%);}
+        60%{transform: translateY(-200%);}
+        70%{transform: translateY(-250%);}
+        80%{transform: translateY(-300%);}
+        90%{transform: translateY(-350%);}
+        100%{transform: translateY(-380%);}
+}
+
+.br900grey{
+    display: flex;
+    background-image: url(/img/BRABUS\ ROCKET\ 900_grey1.jpeg);
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+.br900grey2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: -20;
+}
+.br900grey2_tekst{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.br900grey2_tekst h2{
+    display: flex;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: space-around;
+    font-size: 40px;
+    margin-left: 0%;
+    margin-right: 0%;   
+}
+.br900grey2_tekst h2:hover{
+    background-color: white;
+    color: #b70826;
+    font-size: 45px;
+    transition: all 1s;
+    transition-delay: 0.2s;
+}
+
+.br900grey2_tekst p{
+    display: flex;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-left: 0%;
+    margin-right: 0%;   
+    opacity: 0.5;
+}
+.speed{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: #f5f5f5;
+    background-image: url(/img/Снимок\ экрана\ 2022-03-08\ в\ 23.53.51.png);
+    background-size: cover;
+    object-fit: cover;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.block2{
+    display: grid;
+    width: 100%;
+    height: 50%;
+    background-color: firebrick;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(300px, auto);
+    gap: 25px;
+}
+.grid{
+    background-color: white;
+}
+.block2_1{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    display: flex;
+}
+
+.insideframe2{
+    margin: 100px;
+    overflow: hidden;
+    height: 70vh;
+    width: 90%;
+    position: relative;
+    display: flex;
+}
+.insideframe2 img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    transition: all 2s;
+    animation-duration: 15s;
+    animation-name: scroll2;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+ @keyframes scroll2 { 
+        0%{transform: translateX(100%);}
+        10%{transform: translateX(50%);}
+        20%{transform: translateX(0%);}
+        30%{transform: translateX(-50%);}
+        40%{transform: translateX(-100%);}
+        50%{transform: translateX(-150%);}
+        60%{transform: translateX(-200%);}
+        70%{transform: translateX(-250%);}
+        80%{transform: translateX(-300%);}
+        90%{transform: translateX(-350%);}
+        100%{transform: translateX(-360%);}
+} 
+.video2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    background-size: cover;
+    object-fit: cover;
+    background-color: black;
+    z-index: -4;
+}
+.wheel img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: wheel;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes wheel {
+    from{
+        transform: rotateZ(0deg);
+        left: 0;
+    }
+    to{
+        transform: rotateZ(360deg);
+        left: calc(100vw - 350px);
+    }
+    
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    margin-top: 100px;
+    bottom: 0px;
+    z-index: -100;
+}
+.flip{
+    margin-top: 100px;
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.card{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    perspective: 1000px;
+    font-size: 60px;
+}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    transition: 2s;
+    backface-visibility: hidden;
+    
+}
+.back{
+    
+    position: absolute ;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    transition: 2s;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+
+}
+.card:hover .front{transform: rotateY(180deg);}
+.card:hover .back{transform: rotateY(360deg);}
+
+.brand h2{
+    margin-top: 20%;
+    text-align: center;
+    font-size: 40px;
+}
+.facebook{
+    color: #4267B2;
+}
+.twitter{
+    color: #1d9bf0;
+}
+.youtube{
+    color: #FF0000;
+}
+.instagram{
+    color: #405DE6;
+}
+.linkedin{
+    color: #2867B2;
+}
+.telegram{
+    color: #0088cc;
+}
+
+  
+@media all and (max-width: 640px) {
+    .drop_down_menu{
+        display: none;
+    }
+    .drop-down_2{
+        display: none;
+    }
+    .drop_down_menu2{
+        display: none;
+    }
+    .burger {
+      display: inline-block;
+    }
+    .videoblock{
+        display: flex;
+        width: 640px;
+
+    }
+    .block1{
+        display: flex;
+        flex-wrap: wrap;
+        height: 5%;
+    }
+    .block1_text{
+        display: flex;
+        height: 90%;
+        
+    }
+    .block1_text1{
+        display: flex;
+        font-size: 62%;
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        height: 3%;
+
+    }
+    .block1_text2{
+        display: flex;
+        font-size: 125%;
+        margin: 0%;
+        padding: 0%;
+        height: 10%;
+    }
+    .block1_text3{
+        font-size: 62%;
+        height: 20%;
+        margin: 0%;
+        padding: 0%;
+        height: 15%;
+    }
+    .button{
+        display: flex;
+        width: 30%;
+        height: 100%;
+        justify-content: center;
+        padding: 4% 4%;
+        margin: 1% 1%;
+        background-color: white;
+        border: 1px solid rgb(0, 0, 0);
+        color: black;
+    }
+    .button a{
+        font-size: 100%;
+        text-decoration: none;
+        color: black;
+    }
+    .button a:hover{
+        font-size: 100%;
+        text-decoration: none;
+         color: white;
+    }
+    .button:hover{
+        background-color: red;
+        color: white;
+        cursor: grab;
+        transition: 1s;
+    }
+    .block1_frame{
+        display: flex;
+        width: 50%;
+        height: 100%;
+        /* margin: 50px; */
+        margin-top: -100px;
+        margin-right: 100px;
+    }
+    .br900grey2_tekst h2{
+        display: flex;
+        width: 100%;
+        /* align-items: center; */
+        justify-content: space-around;
+        font-size: 150%;
+        margin-left: 0%;
+        margin-right: 0%;   
+    }
+    .br900grey2_tekst p{
+        display: flex;
+        width: 100%;
+        /* align-items: center; */
+        justify-content: space-around;
+        margin-left: 0%;
+        font-size: 80%;
+        margin-right: 0%;   
+        opacity: 0.5;
+    }
+    .speed{
+        display: flex;
+        width: 100%;
+        height: 40vh;
+        background-color: #f5f5f5;
+        background-image: url(/img/Снимок\ экрана\ 2022-03-08\ в\ 23.53.51.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 20%;
+        background-color: white;
+        text-align: center;
+        font-size: 140%;
+    }
+    .block2{
+        display: grid;
+        width: 100%;
+        height: 50%;
+        background-color: firebrick;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(300px, auto);
+        gap: 25px;
+    }
+    .insideframe2{
+        margin: 100px;
+        overflow: hidden;
+        height: 70vh;
+        width: 95%;
+        position: relative;
+        display: flex;
+    }
+}    
+
+@media all and (max-width: 1024px) {
+    .drop_down_menu{
+        display: none;
+    }
+    .drop-down_2{
+        display: none;
+    }
+    .drop_down_menu2{
+        display: none;
+    }
+    .burger {
+      display: inline-block;
+      margin: 3% 20% 0% 70%;
+      position: relative;
+      font-size: 25px;
+      
+    }
+    .videoblock{
+        display: flex;
+        width: 100%;
+
+    }
+    .block1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+    }
+    .block1_text{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .block1_text1{
+        display: flex;
+        font-size: 90%;
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        height: 3%;
+
+    }
+    .block1_text2{
+        display: flex;
+        font-size: 180%;
+        margin: 0%;
+        padding: 0%;
+        height: 15%;
+    }
+    .block1_text3{
+        font-size: 90%;
+        height: 20%;
+        margin: 0%;
+        padding: 0%;
+        height: 15%;
+    }
+    .button{
+        display: flex;
+        width: 20%;
+        height: 100%;
+        justify-content: center;
+        padding: 3% 3%;
+        margin: 1% 1%;
+        background-color: white;
+        border: 1px solid rgb(0, 0, 0);
+        color: black;
+    }
+    .button a{
+        font-size: 100%;
+        text-decoration: none;
+        color: black;
+    }
+    .button a:hover{
+        font-size: 100%;
+        text-decoration: none;
+         color: white;
+    }
+    .button:hover{
+        background-color: red;
+        color: white;
+        cursor: grab;
+        transition: 1s;
+    }
+    .block1_frame{
+        display: flex;
+        width: 50%;
+        height: 100%;
+        /* margin: 50px; */
+        margin-top: -100px;
+        margin-right: 100px;
+    }
+    .br900grey2_tekst h2{
+        display: flex;
+        width: 100%;
+        /* align-items: center; */
+        justify-content: space-around;
+        font-size: 190%;
+        margin-left: 0%;
+        margin-right: 0%;   
+    }
+    .br900grey2_tekst p{
+        display: flex;
+        width: 100%;
+        /* align-items: center; */
+        justify-content: space-around;
+        margin-left: 0%;
+        font-size: 80%;
+        margin-right: 0%;   
+        opacity: 0.5;
+    }
+    .speed{
+        display: flex;
+        width: 100%;
+        height: 60vh;
+        background-color: #f5f5f5;
+        background-image: url(/img/Снимок\ экрана\ 2022-03-08\ в\ 23.53.51.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 20%;
+        background-color: white;
+        text-align: center;
+        font-size: 180%;
+    }
+    .block2{
+        display: grid;
+        width: 100%;
+        height: 50%;
+        background-color: firebrick;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(300px, auto);
+        gap: 25px;
+    }
+    .insideframe2{
+        margin: 100px;
+        overflow: hidden;
+        height: 70vh;
+        width: 95%;
+        position: relative;
+        display: flex;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    .videoblock{
+        display: flex;
+        width: 100%;
+
+    }
+    .block1{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .block1_text{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .block1_text1{
+        display: flex;
+        font-size: 90%;
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        height: 3%;
+
+    }
+    .block1_text2{
+        display: flex;
+        font-size: 180%;
+        margin: 0%;
+        padding: 0%;
+        height: 15%;
+    }
+    .block1_text3{
+        font-size: 90%;
+        height: 20%;
+        margin: 0%;
+        padding: 0%;
+        height: 15%;
+    }
+    .button{
+        display: flex;
+        width: 20%;
+        height: 100%;
+        justify-content: center;
+        padding: 3% 3%;
+        margin: 1% 1%;
+        background-color: white;
+        border: 1px solid rgb(0, 0, 0);
+        color: black;
+    }
+    .button a{
+        font-size: 100%;
+        text-decoration: none;
+        color: black;
+    }
+    .button a:hover{
+        font-size: 100%;
+        text-decoration: none;
+         color: white;
+    }
+    .button:hover{
+        background-color: red;
+        color: white;
+        cursor: grab;
+        transition: 1s;
+    }
+    
+    .block1_frame{
+        display: flex;
+        width: 50%;
+        height: 50%;
+        margin: 50px;
+        margin-top: 15px;
+        margin-right: 100px;
+    }
+    .insideframe{
+        overflow: hidden;
+        height: 500px;
+        width: 500px;
+        position: relative;
+    }
+    .insideframe img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        transition: all 2s;
+        animation-duration: 15s;
+        animation-name: scroll;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+
+
+    .br900grey2_tekst h2{
+        display: flex;
+        width: 100%;
+        /* align-items: center; */
+        justify-content: space-around;
+        font-size: 190%;
+        margin-left: 0%;
+        margin-right: 0%;   
+    }
+    .br900grey2_tekst p{
+        display: flex;
+        width: 100%;
+        /* align-items: center; */
+        justify-content: space-around;
+        margin-left: 0%;
+        font-size: 80%;
+        margin-right: 0%;   
+        opacity: 0.5;
+    }
+    .speed{
+        display: flex;
+        width: 100%;
+        height: 40vh;
+        background-color: #f5f5f5;
+        background-image: url(/img/Снимок\ экрана\ 2022-03-08\ в\ 23.53.51.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 20%;
+        background-color: white;
+        text-align: center;
+        font-size: 180%;
+    }
+    .block2{
+        display: grid;
+        width: 100%;
+        height: 50%;
+        background-color: firebrick;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(300px, auto);
+        gap: 25px;
+    }
+    .insideframe2{
+        margin: 100px;
+        overflow: hidden;
+        height: 70vh;
+        width: 95%;
+        position: relative;
+        display: flex;
+    }
+    footer{
+        width: 100%;
+        height: 50vh;
+        /* margin-top: 100px; */
+        bottom: 0px;
+        z-index: -100;
+    }
+    .brand h2{
+        text-align: center;
+        font-size: 40px;
+    }
+} 
+
+@media all and (max-width: 1920px) {
+    .navbar{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 90px;
+        margin-top: 0px;
+        top: 0px;
+        background-color: black;
+        position: fixed;
+        z-index:1;
+    }
+    
+    .videoblock{
+        display: flex;
+        width: 100%;
+
+    }
+    .block1{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .block1_text{
+        display: flex;
+        height: 80%;
+        width: 50%;
+        
+    }
+    .block1_text1{
+        display: flex;
+        font-size: 90%;
+        width: 50%;
+        margin: 0%;
+        padding: 0%;
+        height: 3%;
+
+    }
+    .block1_text2{
+        display: flex;
+        width: 70%;
+        font-size: 220%;
+        margin: 0%;
+        padding: 0%;
+        height: 15%;
+    }
+    .block1_text3{
+        font-size: 120%;
+        height: 20%;
+        margin: 0%;
+        padding: 0%;
+        height: 15%;
+    }
+    .button{
+        display: flex;
+        width: 40%;
+        height: 100%;
+        justify-content: center;
+        padding: 3% 3%;
+        margin: 1% 1%;
+        background-color: white;
+        border: 1px solid rgb(0, 0, 0);
+        color: black;
+    }
+    .button a{
+        font-size: 100%;
+        text-decoration: none;
+        color: black;
+    }
+    .button a:hover{
+        font-size: 100%;
+        text-decoration: none;
+         color: white;
+    }
+    .button:hover{
+        background-color: red;
+        color: white;
+        cursor: grab;
+        transition: 1s;
+    }
+    
+    .block1_frame{
+        display: flex;
+        width: 50%;
+        height: 50%;
+        margin: 50px;
+        margin-top: 15px;
+        margin-right: 100px;
+    }
+    .insideframe{
+        overflow: hidden;
+        height: 500px;
+        width: 500px;
+        position: relative;
+    }
+    .insideframe img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        transition: all 2s;
+        animation-duration: 15s;
+        animation-name: scroll;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+
+
+    .br900grey2_tekst h2{
+        display: flex;
+        width: 100%;
+        /* align-items: center; */
+        justify-content: space-around;
+        font-size: 250%;
+        margin-left: 0%;
+        margin-right: 0%;   
+    }
+    .br900grey2_tekst p{
+        display: flex;
+        width: 100%;
+        /* align-items: center; */
+        justify-content: space-around;
+        margin-left: 0%;
+        font-size: 80%;
+        margin-right: 0%;   
+        opacity: 0.5;
+    }
+    .speed{
+        display: flex;
+        width: 100%;
+        height: 80vh;
+        background-color: #f5f5f5;
+        background-image: url(/img/Снимок\ экрана\ 2022-03-08\ в\ 23.53.51.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 20%;
+        background-color: white;
+        text-align: center;
+        font-size: 250%;
+    }
+    .block2{
+        display: grid;
+        width: 100%;
+        height: 50%;
+        background-color: firebrick;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(300px, auto);
+        gap: 25px;
+    }
+    .insideframe2{
+        margin: 100px;
+        overflow: hidden;
+        height: 70vh;
+        width: 95%;
+        position: relative;
+        display: flex;
+    }
+    footer{
+        width: 100%;
+        height: 50vh;
+        margin-top: 30%;
+        bottom: 0px;
+        z-index: -100;
+    }
+    .brand h2{
+        margin-top: 20%;
+        text-align: center;
+        font-size: 40px;
+    }
+} 
